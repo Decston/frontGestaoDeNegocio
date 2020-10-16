@@ -1,0 +1,11 @@
+.page-container {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.new-product-container {
+    width: 80%;
+    padding-bottom: 20px;
+}
