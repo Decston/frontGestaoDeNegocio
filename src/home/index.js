@@ -12,6 +12,7 @@ const Home = () => (
                 altImg={null} 
                 srcImg={null}
                 width={"auto"}
+                link='/venda'
             />
         </div>
         <div className="new-product-container">
