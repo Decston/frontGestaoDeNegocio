@@ -22,7 +22,7 @@ const Home = () => (
                 altImg={null} 
                 srcImg={null}
                 width={"auto"}
-                link='#'
+                link='/consultar-vendas'
             />
         </div>
         <div className="new-product-container">
@@ -32,7 +32,7 @@ const Home = () => (
                 altImg={null} 
                 srcImg={null}
                 width={"auto"}
-                link='#'
+                link='/adicionar-produto'
             />
         </div>
         <div className="new-product-container">
@@ -42,7 +42,7 @@ const Home = () => (
                 altImg={null} 
                 srcImg={null}
                 width={"auto"}
-                link='#'
+                link='/consultar-estoque'
             />
         </div>
     </div>

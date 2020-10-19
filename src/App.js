@@ -6,6 +6,9 @@ import './App.css';
 import Header from './common/Header';
 import Home from './home';
 import Venda from './venda';
+import ConsultarVendas from './consultarVendas';
+import AdicionarProduto from './adicionarProduto';
+import ConsultarEstoque from './consultarEstoque';
 
 const App = () => (
   <div>
@@ -15,6 +18,9 @@ const App = () => (
         <Switch>
           <Route exact path='/' component={Home} />
           <Route path='/venda' component={Venda} />
+          <Route path='/consultar-vendas' component={ConsultarVendas} />
+          <Route path='/adicionar-produto' component={AdicionarProduto} />
+          <Route path='/consultar-estoque' component={ConsultarEstoque} />
         </Switch>
       </div>
     </Router>
