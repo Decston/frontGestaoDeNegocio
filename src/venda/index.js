@@ -22,23 +22,7 @@ const Venda = () => (
                 value={''} 
                 onChange={() => {}}
                 required
-                style={{ width: 220, marginBottom: 16, marginRight: 10 }}
-            />
-            <Input 
-                placeholder="Especificação" 
-                name="specification" 
-                value={''} 
-                onChange={() => {}}
-                required
-                style={{ width: 160, marginBottom: 16, marginRight: 10 }}
-            />
-            <Input 
-                placeholder="Cor" 
-                name="color" 
-                value={''} 
-                onChange={() => {}}
-                required
-                style={{ width: 120, marginBottom: 16, marginRight: 10 }}
+                style={{ width: 360, marginBottom: 16, marginRight: 10 }}
             />
             <Input 
                 placeholder="Qtd" 

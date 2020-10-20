@@ -69,7 +69,7 @@ const data = [
 const ConsultarVendas = () => (
     <div className="page-container">
         <h1>Consultar Vendas</h1>
-
+    
         <Table columns={columns} dataSource={data} scroll={{ x: 1300 }} />
     </div>
 );
